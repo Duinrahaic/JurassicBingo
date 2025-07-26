@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "JurassicBingo",
   "resources": {
-    "hash": "sha256-iP3rL4AKPAE6XvO1ZrLktnfHrPJOfXugxFoTka9SJ38=",
+    "hash": "sha256-Ro9/sZ2RnoumfCBy+PpgBkTS1ftzevBv+6NrtCd6HUk=",
     "fingerprinting": {
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
@@ -202,8 +202,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "JurassicBingo.hmnj17yobz.wasm": "JurassicBingo.wasm",
-      "JurassicBingo.ei04ahi0im.pdb": "JurassicBingo.pdb"
+      "JurassicBingo.dh3y138glq.wasm": "JurassicBingo.wasm",
+      "JurassicBingo.zh7sn6onrq.pdb": "JurassicBingo.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.8o8n7iomrf.js": "sha256-WIUiy49hHQ3kOAtRdCtUzm3Yg5BnOqCC+Q+kri9Fi1g="
@@ -414,10 +414,10 @@
       "WindowsBase.ovqw333kan.wasm": "sha256-7LCr4nX9JSGuwzMr8Rk8TGvC6ApzQNxCDiMV/0I9JlI=",
       "mscorlib.l6md3pggqy.wasm": "sha256-jZgH0LixLeQKqaq33akQgDGhfE7vbXbHtvCId5HC0Yo=",
       "netstandard.lij9csiyuf.wasm": "sha256-DeeBl9s8G34N3IfYRQ+MoY807amodj8cvpuvUSNaWE4=",
-      "JurassicBingo.hmnj17yobz.wasm": "sha256-p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8="
+      "JurassicBingo.dh3y138glq.wasm": "sha256-36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw="
     },
     "pdb": {
-      "JurassicBingo.ei04ahi0im.pdb": "sha256-ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8="
+      "JurassicBingo.zh7sn6onrq.pdb": "sha256-CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems="
     }
   },
   "cacheBootResources": true,

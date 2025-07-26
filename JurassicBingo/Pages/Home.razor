@@ -8,16 +8,16 @@
 
 <PageTitle>Jurassic Park Bingo</PageTitle>
 
-<h1 class="jp-title">
-    Jurassic Park Bingo
-</h1>
-
-
-<div class="bingo-toolbar-container">
-    <button class="jp-button" @onclick="RandomizeSquares"> Random </button>
-    <button class="jp-button" @onclick="ResetSquares"> Reset </button>
-</div> 
-<BingoCardRenderer Squares="@_squares" OnSquareClick="MarkSquare" />
+<div class="bingo-page-container">
+    <h1 class="jp-title">
+        Jurassic Park Bingo
+    </h1>
+    <div class="bingo-toolbar-container">
+        <button class="jp-button" @onclick="RandomizeSquares"> Random </button>
+        <button class="jp-button" @onclick="ResetSquares"> Reset </button>
+    </div> 
+    <BingoCardRenderer Squares="@_squares" OnSquareClick="MarkSquare" />
+</div>
 
 @code {
     private List<BingoSquare> _squares = new();
