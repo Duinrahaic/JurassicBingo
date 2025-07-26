@@ -3,34 +3,24 @@
 
 <div class="bingo-container">
     <div class="bingo-grid">
-        <div class="bingo-row" >
-            <div class="bingo-square" style="height: unset; cursor: unset;">
-                <span class="square-text" style="font-size: 30px!important;">B</span>
-            </div>
-            <div class="bingo-square" style="height: unset; cursor: unset;">
-                <span class="square-text" style="font-size: 30px!important;">I</span>
-            </div>
-            <div class="bingo-square" style="height: unset; cursor: unset;">
-                <span class="square-text" style="font-size: 30px!important;">N</span>
-            </div>
-            <div class="bingo-square" style="height: unset; cursor: unset;">
-                <span class="square-text" style="font-size: 30px!important;">G</span>
-            </div>
-            <div class="bingo-square" style="height: unset; cursor: unset;">
-                <span class="square-text" style="font-size: 30px!important;">O</span>
-            </div>
+        <div class="bingo-square bingo-header">
+            <span class="square-text">B</span>
         </div>
-        
-        
-        @for (int row = 0; row < 5; row++)
+        <div class="bingo-square bingo-header">
+            <span class="square-text">I</span>
+        </div>
+        <div class="bingo-square bingo-header">
+            <span class="square-text">N</span>
+        </div>
+        <div class="bingo-square bingo-header">
+            <span class="square-text">G</span>
+        </div>
+        <div class="bingo-square bingo-header">
+            <span class="square-text">O</span>
+        </div>
+        @foreach(var square in Squares)
         {
-            <div class="bingo-row">
-                @for (int col = 0; col < 5; col++)
-                {
-                    int index = row * 5 + col;
-                    <BingoSquareRenderer Square="Squares[index]" OnSquareClick="HandleSquareClick"/>
-                }
-            </div>
+            <BingoSquareRenderer Square="@square" OnSquareClick="HandleSquareClick" />
         }
     </div>
 </div>

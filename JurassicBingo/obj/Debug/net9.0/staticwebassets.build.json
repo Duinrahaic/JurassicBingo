@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GvdFsNiw8Y5Bpdb5/thO9rOmE1B2fgy02gGpy/1B338=",
+  "Hash": "hQFoE1iJgxwVOqvZn7F92d9Qoz295wyOY8ROmLZTcEM=",
   "Source": "JurassicBingo",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "rqtv8vgq63",
-      "Integrity": "rfMcmKo+BKz1EzCIGECnhmSmEox5G2Hx1nR++mHcwVU=",
+      "Fingerprint": "f3rs00flpd",
+      "Integrity": "K6g+6GCRRndedKbvIlFrba9u8QN8uzWyL4GAATzWHSQ=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ei04ahi0im",
-      "Integrity": "ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8=",
+      "Fingerprint": "zh7sn6onrq",
+      "Integrity": "CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\JurassicBingo.pdb"
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "hmnj17yobz",
-      "Integrity": "p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8=",
+      "Fingerprint": "dh3y138glq",
+      "Integrity": "36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\webcil\\JurassicBingo.wasm"
@@ -4406,7 +4406,7 @@
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Threading.Tasks.Extensions.wasm"
     },
     {
-      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\0tvx1no5oj-rqtv8vgq63.gz",
+      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\0tvx1no5oj-f3rs00flpd.gz",
       "SourceId": "JurassicBingo",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\",
@@ -4420,8 +4420,8 @@
       "RelatedAsset": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "s6wlopjs5v",
-      "Integrity": "NOKODOmMzW5+imCW84GhTiVhcggjBoW/cXIcmxWk+zg=",
+      "Fingerprint": "738rpn0x7x",
+      "Integrity": "sxb6/+5rM7E/yn6BDWohy7VfzufnqON02VmtBzihM38=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -4637,12 +4637,12 @@
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Private.Uri.wasm"
     },
     {
-      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-ejcyl0i35h.gz",
+      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-m2huw343a0.gz",
       "SourceId": "JurassicBingo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app.css#[.{fingerprint=ejcyl0i35h}]?.map.gz",
+      "RelativePath": "css/app.css#[.{fingerprint=m2huw343a0}]?.map.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4651,8 +4651,8 @@
       "RelatedAsset": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\wwwroot\\css\\app.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0b08eqj4oc",
-      "Integrity": "dKYfbiQoAqnMJAXqe1fVfcIszsTvuGBiZS8WeHKMPpo=",
+      "Fingerprint": "b95qapmdzi",
+      "Integrity": "H4tMbv0R8Vt/fqCsEDsBioKV880UdqiGEioafLjDlIQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\wwwroot\\css\\app.css.map"
@@ -6884,12 +6884,12 @@
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.HttpListener.wasm"
     },
     {
-      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-hmnj17yobz.gz",
+      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-dh3y138glq.gz",
       "SourceId": "JurassicBingo",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/JurassicBingo#[.{fingerprint=hmnj17yobz}]!.wasm.gz",
+      "RelativePath": "_framework/JurassicBingo#[.{fingerprint=dh3y138glq}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -6898,8 +6898,8 @@
       "RelatedAsset": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JurassicBingo.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vvr0ye9ld6",
-      "Integrity": "K7ekeJ/awqNZ/per4FRhPit2f0OVt7j0Qw6OpiTuISU=",
+      "Fingerprint": "b4wukoyrgh",
+      "Integrity": "5S1l8r/1gP/P0mhk8TUba+Q9E86K71qzCggkCbPnCv8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JurassicBingo.wasm"
@@ -7115,12 +7115,12 @@
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Net.Sockets.wasm"
     },
     {
-      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-ei04ahi0im.gz",
+      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-zh7sn6onrq.gz",
       "SourceId": "JurassicBingo",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/JurassicBingo#[.{fingerprint=ei04ahi0im}]!.pdb.gz",
+      "RelativePath": "_framework/JurassicBingo#[.{fingerprint=zh7sn6onrq}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7129,19 +7129,19 @@
       "RelatedAsset": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JurassicBingo.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qojg4k00bq",
-      "Integrity": "VuS1uG5KbIO7GZIhNmAx6cVfQkzJ+gOiebNXsQDVd5o=",
+      "Fingerprint": "s0k6xxr470",
+      "Integrity": "3D94xixu+rtLQzacZyavsrb72ZNSDSmjYpn8DSwmXvs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JurassicBingo.pdb"
     },
     {
-      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-mygrjfbhi9.gz",
+      "Identity": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-ltyyf48p5n.gz",
       "SourceId": "JurassicBingo",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/app#[.{fingerprint=mygrjfbhi9}]?.css.gz",
+      "RelativePath": "css/app#[.{fingerprint=ltyyf48p5n}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7150,8 +7150,8 @@
       "RelatedAsset": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\wwwroot\\css\\app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "as7hg6ohmi",
-      "Integrity": "qulflwsZa8Eb+HrJvEo9WNMVgvpXMRYAlqWtH+Yqw5s=",
+      "Fingerprint": "jo3u8hhdjs",
+      "Integrity": "I6rTg5ZxC38urHM4mpCm8JVXILMk19jR2/yXDM5Ms+c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\wwwroot\\css\\app.css"
@@ -9649,8 +9649,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "olflv19o66",
-      "Integrity": "PPXPdKKOO1BX464uaxfUtgdgkONZfIWXAQqc4/Ut4Dg=",
+      "Fingerprint": "9belhpsntm",
+      "Integrity": "S4+gYIMH0zekyvMvASCKe8suy+foviv9+Fs9dcBySGQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\_main.scss"
@@ -9691,8 +9691,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mygrjfbhi9",
-      "Integrity": "ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE=",
+      "Fingerprint": "ltyyf48p5n",
+      "Integrity": "yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -9712,8 +9712,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ejcyl0i35h",
-      "Integrity": "+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA=",
+      "Fingerprint": "m2huw343a0",
+      "Integrity": "EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css.map"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rfMcmKo+BKz1EzCIGECnhmSmEox5G2Hx1nR++mHcwVU=\""
+          "Value": "\"K6g+6GCRRndedKbvIlFrba9u8QN8uzWyL4GAATzWHSQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,18 +10803,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rfMcmKo+BKz1EzCIGECnhmSmEox5G2Hx1nR++mHcwVU="
+          "Value": "sha256-K6g+6GCRRndedKbvIlFrba9u8QN8uzWyL4GAATzWHSQ="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\0tvx1no5oj-rqtv8vgq63.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\0tvx1no5oj-f3rs00flpd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080899604"
+          "Quality": "0.000080906149"
         }
       ],
       "ResponseHeaders": [
@@ -10824,15 +10824,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12360"
+          "Value": "12359"
         },
         {
           "Name": "ETag",
-          "Value": "\"NOKODOmMzW5+imCW84GhTiVhcggjBoW/cXIcmxWk+zg=\""
+          "Value": "\"sxb6/+5rM7E/yn6BDWohy7VfzufnqON02VmtBzihM38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:30:16 GMT"
+          "Value": "Sat, 26 Jul 2025 15:13:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"rfMcmKo+BKz1EzCIGECnhmSmEox5G2Hx1nR++mHcwVU=\""
+          "Value": "W/\"K6g+6GCRRndedKbvIlFrba9u8QN8uzWyL4GAATzWHSQ=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rfMcmKo+BKz1EzCIGECnhmSmEox5G2Hx1nR++mHcwVU="
+          "Value": "sha256-K6g+6GCRRndedKbvIlFrba9u8QN8uzWyL4GAATzWHSQ="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\0tvx1no5oj-rqtv8vgq63.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\0tvx1no5oj-f3rs00flpd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10873,7 +10873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12360"
+          "Value": "12359"
         },
         {
           "Name": "Content-Type",
@@ -10881,11 +10881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"NOKODOmMzW5+imCW84GhTiVhcggjBoW/cXIcmxWk+zg=\""
+          "Value": "\"sxb6/+5rM7E/yn6BDWohy7VfzufnqON02VmtBzihM38=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:30:16 GMT"
+          "Value": "Sat, 26 Jul 2025 15:13:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-NOKODOmMzW5+imCW84GhTiVhcggjBoW/cXIcmxWk+zg="
+          "Value": "sha256-sxb6/+5rM7E/yn6BDWohy7VfzufnqON02VmtBzihM38="
         }
       ]
     },
@@ -14025,168 +14025,7 @@
       ]
     },
     {
-      "Route": "_framework/JurassicBingo.ei04ahi0im.pdb",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JurassicBingo.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "25960"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:38 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ei04ahi0im"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/JurassicBingo.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/JurassicBingo.ei04ahi0im.pdb",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-ei04ahi0im.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000054969217"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18191"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VuS1uG5KbIO7GZIhNmAx6cVfQkzJ+gOiebNXsQDVd5o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ei04ahi0im"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/JurassicBingo.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/JurassicBingo.ei04ahi0im.pdb.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-ei04ahi0im.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "18191"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VuS1uG5KbIO7GZIhNmAx6cVfQkzJ+gOiebNXsQDVd5o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ei04ahi0im"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/JurassicBingo.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VuS1uG5KbIO7GZIhNmAx6cVfQkzJ+gOiebNXsQDVd5o="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/JurassicBingo.hmnj17yobz.wasm",
+      "Route": "_framework/JurassicBingo.dh3y138glq.wasm",
       "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JurassicBingo.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -14196,7 +14035,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27925"
+          "Value": "27413"
         },
         {
           "Name": "Content-Type",
@@ -14204,11 +14043,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8=\""
+          "Value": "\"36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:38 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14218,7 +14057,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hmnj17yobz"
+          "Value": "dh3y138glq"
         },
         {
           "Name": "label",
@@ -14226,18 +14065,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8="
+          "Value": "sha256-36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw="
         }
       ]
     },
     {
-      "Route": "_framework/JurassicBingo.hmnj17yobz.wasm",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-hmnj17yobz.gz",
+      "Route": "_framework/JurassicBingo.dh3y138glq.wasm",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-dh3y138glq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081532817"
+          "Quality": "0.000081103001"
         }
       ],
       "ResponseHeaders": [
@@ -14247,15 +14086,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12264"
+          "Value": "12329"
         },
         {
           "Name": "ETag",
-          "Value": "\"K7ekeJ/awqNZ/per4FRhPit2f0OVt7j0Qw6OpiTuISU=\""
+          "Value": "\"5S1l8r/1gP/P0mhk8TUba+Q9E86K71qzCggkCbPnCv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14275,13 +14114,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8=\""
+          "Value": "W/\"36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hmnj17yobz"
+          "Value": "dh3y138glq"
         },
         {
           "Name": "label",
@@ -14289,13 +14128,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8="
+          "Value": "sha256-36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw="
         }
       ]
     },
     {
-      "Route": "_framework/JurassicBingo.hmnj17yobz.wasm.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-hmnj17yobz.gz",
+      "Route": "_framework/JurassicBingo.dh3y138glq.wasm.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-dh3y138glq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14304,7 +14143,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12264"
+          "Value": "12329"
         },
         {
           "Name": "Content-Type",
@@ -14312,11 +14151,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K7ekeJ/awqNZ/per4FRhPit2f0OVt7j0Qw6OpiTuISU=\""
+          "Value": "\"5S1l8r/1gP/P0mhk8TUba+Q9E86K71qzCggkCbPnCv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14334,7 +14173,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "hmnj17yobz"
+          "Value": "dh3y138glq"
         },
         {
           "Name": "label",
@@ -14342,7 +14181,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-K7ekeJ/awqNZ/per4FRhPit2f0OVt7j0Qw6OpiTuISU="
+          "Value": "sha256-5S1l8r/1gP/P0mhk8TUba+Q9E86K71qzCggkCbPnCv8="
         }
       ]
     },
@@ -14357,7 +14196,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25960"
+          "Value": "26624"
         },
         {
           "Name": "Content-Type",
@@ -14365,11 +14204,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8=\""
+          "Value": "\"CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:38 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14379,18 +14218,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8="
+          "Value": "sha256-CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems="
         }
       ]
     },
     {
       "Route": "_framework/JurassicBingo.pdb",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-ei04ahi0im.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-zh7sn6onrq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054969217"
+          "Quality": "0.000053467358"
         }
       ],
       "ResponseHeaders": [
@@ -14400,15 +14239,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18191"
+          "Value": "18702"
         },
         {
           "Name": "ETag",
-          "Value": "\"VuS1uG5KbIO7GZIhNmAx6cVfQkzJ+gOiebNXsQDVd5o=\""
+          "Value": "\"3D94xixu+rtLQzacZyavsrb72ZNSDSmjYpn8DSwmXvs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14428,19 +14267,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8=\""
+          "Value": "W/\"CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ataeu9GuPTrgHSxWF1fpXWThXRyYYgv82x2UqdkG9l8="
+          "Value": "sha256-CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems="
         }
       ]
     },
     {
       "Route": "_framework/JurassicBingo.pdb.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-ei04ahi0im.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-zh7sn6onrq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14449,7 +14288,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18191"
+          "Value": "18702"
         },
         {
           "Name": "Content-Type",
@@ -14457,11 +14296,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VuS1uG5KbIO7GZIhNmAx6cVfQkzJ+gOiebNXsQDVd5o=\""
+          "Value": "\"3D94xixu+rtLQzacZyavsrb72ZNSDSmjYpn8DSwmXvs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14479,7 +14318,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VuS1uG5KbIO7GZIhNmAx6cVfQkzJ+gOiebNXsQDVd5o="
+          "Value": "sha256-3D94xixu+rtLQzacZyavsrb72ZNSDSmjYpn8DSwmXvs="
         }
       ]
     },
@@ -14494,7 +14333,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "27925"
+          "Value": "27413"
         },
         {
           "Name": "Content-Type",
@@ -14502,11 +14341,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8=\""
+          "Value": "\"36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:38 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14516,18 +14355,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8="
+          "Value": "sha256-36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw="
         }
       ]
     },
     {
       "Route": "_framework/JurassicBingo.wasm",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-hmnj17yobz.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-dh3y138glq.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081532817"
+          "Quality": "0.000081103001"
         }
       ],
       "ResponseHeaders": [
@@ -14537,15 +14376,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12264"
+          "Value": "12329"
         },
         {
           "Name": "ETag",
-          "Value": "\"K7ekeJ/awqNZ/per4FRhPit2f0OVt7j0Qw6OpiTuISU=\""
+          "Value": "\"5S1l8r/1gP/P0mhk8TUba+Q9E86K71qzCggkCbPnCv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14565,19 +14404,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8=\""
+          "Value": "W/\"36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-p8RwNP3pFRufQ/C+6vOA8htHE+UQEjSa/TdG46E/Zg8="
+          "Value": "sha256-36w0H20CT+XhgkK2NImz0f4x/cAqHVh40bpv9U64fgw="
         }
       ]
     },
     {
       "Route": "_framework/JurassicBingo.wasm.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-hmnj17yobz.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\fou5kxmsrx-dh3y138glq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14586,7 +14425,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12264"
+          "Value": "12329"
         },
         {
           "Name": "Content-Type",
@@ -14594,11 +14433,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"K7ekeJ/awqNZ/per4FRhPit2f0OVt7j0Qw6OpiTuISU=\""
+          "Value": "\"5S1l8r/1gP/P0mhk8TUba+Q9E86K71qzCggkCbPnCv8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:33:39 GMT"
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14616,7 +14455,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-K7ekeJ/awqNZ/per4FRhPit2f0OVt7j0Qw6OpiTuISU="
+          "Value": "sha256-5S1l8r/1gP/P0mhk8TUba+Q9E86K71qzCggkCbPnCv8="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/JurassicBingo.zh7sn6onrq.pdb",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\bin\\Debug\\net9.0\\wwwroot\\_framework\\JurassicBingo.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zh7sn6onrq"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/JurassicBingo.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/JurassicBingo.zh7sn6onrq.pdb",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-zh7sn6onrq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000053467358"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18702"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3D94xixu+rtLQzacZyavsrb72ZNSDSmjYpn8DSwmXvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zh7sn6onrq"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/JurassicBingo.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CVwqKwUkkuCDXwmIA6TKAhQ+tL1Gg5AtdfKOf764Ems="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/JurassicBingo.zh7sn6onrq.pdb.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gp001c7rv4-zh7sn6onrq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18702"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3D94xixu+rtLQzacZyavsrb72ZNSDSmjYpn8DSwmXvs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:19:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zh7sn6onrq"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/JurassicBingo.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3D94xixu+rtLQzacZyavsrb72ZNSDSmjYpn8DSwmXvs="
         }
       ]
     },
@@ -71539,7 +71539,7 @@
       ]
     },
     {
-      "Route": "css/_main.olflv19o66.scss",
+      "Route": "css/_main.9belhpsntm.scss",
       "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\wwwroot\\css\\_main.scss",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71549,7 +71549,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3798"
+          "Value": "4283"
         },
         {
           "Name": "Content-Type",
@@ -71557,11 +71557,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PPXPdKKOO1BX464uaxfUtgdgkONZfIWXAQqc4/Ut4Dg=\""
+          "Value": "\"S4+gYIMH0zekyvMvASCKe8suy+foviv9+Fs9dcBySGQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71571,7 +71571,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "olflv19o66"
+          "Value": "9belhpsntm"
         },
         {
           "Name": "label",
@@ -71579,7 +71579,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PPXPdKKOO1BX464uaxfUtgdgkONZfIWXAQqc4/Ut4Dg="
+          "Value": "sha256-S4+gYIMH0zekyvMvASCKe8suy+foviv9+Fs9dcBySGQ="
         }
       ]
     },
@@ -71594,7 +71594,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3798"
+          "Value": "4283"
         },
         {
           "Name": "Content-Type",
@@ -71602,11 +71602,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PPXPdKKOO1BX464uaxfUtgdgkONZfIWXAQqc4/Ut4Dg=\""
+          "Value": "\"S4+gYIMH0zekyvMvASCKe8suy+foviv9+Fs9dcBySGQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71616,7 +71616,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-PPXPdKKOO1BX464uaxfUtgdgkONZfIWXAQqc4/Ut4Dg="
+          "Value": "sha256-S4+gYIMH0zekyvMvASCKe8suy+foviv9+Fs9dcBySGQ="
         }
       ]
     },
@@ -71643,7 +71643,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 00:46:53 GMT"
+          "Value": "Sat, 26 Jul 2025 14:48:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71688,7 +71688,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 00:46:53 GMT"
+          "Value": "Sat, 26 Jul 2025 14:48:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71749,12 +71749,12 @@
     },
     {
       "Route": "css/app.css",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-mygrjfbhi9.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-ltyyf48p5n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000918273646"
+          "Quality": "0.000852514919"
         }
       ],
       "ResponseHeaders": [
@@ -71764,15 +71764,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1088"
+          "Value": "1172"
         },
         {
           "Name": "ETag",
-          "Value": "\"qulflwsZa8Eb+HrJvEo9WNMVgvpXMRYAlqWtH+Yqw5s=\""
+          "Value": "\"I6rTg5ZxC38urHM4mpCm8JVXILMk19jR2/yXDM5Ms+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71792,13 +71792,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE=\""
+          "Value": "W/\"yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE="
+          "Value": "sha256-yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8="
         }
       ]
     },
@@ -71813,7 +71813,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3527"
+          "Value": "4326"
         },
         {
           "Name": "Content-Type",
@@ -71821,11 +71821,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE=\""
+          "Value": "\"yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71835,18 +71835,63 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE="
+          "Value": "sha256-yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8="
         }
       ]
     },
     {
-      "Route": "css/app.css.ejcyl0i35h.map",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-ejcyl0i35h.gz",
+      "Route": "css/app.css.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-ltyyf48p5n.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1172"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6rTg5ZxC38urHM4mpCm8JVXILMk19jR2/yXDM5Ms+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6rTg5ZxC38urHM4mpCm8JVXILMk19jR2/yXDM5Ms+c="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.m2huw343a0.map",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-m2huw343a0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003115264798"
+          "Quality": "0.003125000000"
         }
       ],
       "ResponseHeaders": [
@@ -71856,15 +71901,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "320"
+          "Value": "319"
         },
         {
           "Name": "ETag",
-          "Value": "\"dKYfbiQoAqnMJAXqe1fVfcIszsTvuGBiZS8WeHKMPpo=\""
+          "Value": "\"H4tMbv0R8Vt/fqCsEDsBioKV880UdqiGEioafLjDlIQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71884,13 +71929,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA=\""
+          "Value": "W/\"EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ejcyl0i35h"
+          "Value": "m2huw343a0"
         },
         {
           "Name": "label",
@@ -71898,12 +71943,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA="
+          "Value": "sha256-EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo="
         }
       ]
     },
     {
-      "Route": "css/app.css.ejcyl0i35h.map",
+      "Route": "css/app.css.m2huw343a0.map",
       "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\wwwroot\\css\\app.css.map",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71913,7 +71958,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "939"
+          "Value": "970"
         },
         {
           "Name": "Content-Type",
@@ -71921,11 +71966,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA=\""
+          "Value": "\"EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71935,7 +71980,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ejcyl0i35h"
+          "Value": "m2huw343a0"
         },
         {
           "Name": "label",
@@ -71943,13 +71988,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA="
+          "Value": "sha256-EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo="
         }
       ]
     },
     {
-      "Route": "css/app.css.ejcyl0i35h.map.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-ejcyl0i35h.gz",
+      "Route": "css/app.css.m2huw343a0.map.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-m2huw343a0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71958,7 +72003,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "320"
+          "Value": "319"
         },
         {
           "Name": "Content-Type",
@@ -71966,11 +72011,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dKYfbiQoAqnMJAXqe1fVfcIszsTvuGBiZS8WeHKMPpo=\""
+          "Value": "\"H4tMbv0R8Vt/fqCsEDsBioKV880UdqiGEioafLjDlIQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71988,7 +72033,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ejcyl0i35h"
+          "Value": "m2huw343a0"
         },
         {
           "Name": "label",
@@ -71996,63 +72041,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dKYfbiQoAqnMJAXqe1fVfcIszsTvuGBiZS8WeHKMPpo="
-        }
-      ]
-    },
-    {
-      "Route": "css/app.css.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-mygrjfbhi9.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1088"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qulflwsZa8Eb+HrJvEo9WNMVgvpXMRYAlqWtH+Yqw5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-qulflwsZa8Eb+HrJvEo9WNMVgvpXMRYAlqWtH+Yqw5s="
+          "Value": "sha256-H4tMbv0R8Vt/fqCsEDsBioKV880UdqiGEioafLjDlIQ="
         }
       ]
     },
     {
       "Route": "css/app.css.map",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-ejcyl0i35h.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-m2huw343a0.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003115264798"
+          "Quality": "0.003125000000"
         }
       ],
       "ResponseHeaders": [
@@ -72062,15 +72062,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "320"
+          "Value": "319"
         },
         {
           "Name": "ETag",
-          "Value": "\"dKYfbiQoAqnMJAXqe1fVfcIszsTvuGBiZS8WeHKMPpo=\""
+          "Value": "\"H4tMbv0R8Vt/fqCsEDsBioKV880UdqiGEioafLjDlIQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72090,13 +72090,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA=\""
+          "Value": "W/\"EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA="
+          "Value": "sha256-EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo="
         }
       ]
     },
@@ -72111,7 +72111,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "939"
+          "Value": "970"
         },
         {
           "Name": "Content-Type",
@@ -72119,11 +72119,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA=\""
+          "Value": "\"EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72133,13 +72133,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+ohlTa+AXU1CuMUtp76ynBD8brYJMBs3EjV5OS8OEqA="
+          "Value": "sha256-EkLFp+T1H0jO08HFDWgBv1MNJhqw8J/Myr3jkwO4AVo="
         }
       ]
     },
     {
       "Route": "css/app.css.map.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-ejcyl0i35h.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\2dnk2zdk73-m2huw343a0.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72148,7 +72148,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "320"
+          "Value": "319"
         },
         {
           "Name": "Content-Type",
@@ -72156,11 +72156,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dKYfbiQoAqnMJAXqe1fVfcIszsTvuGBiZS8WeHKMPpo=\""
+          "Value": "\"H4tMbv0R8Vt/fqCsEDsBioKV880UdqiGEioafLjDlIQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72178,18 +72178,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dKYfbiQoAqnMJAXqe1fVfcIszsTvuGBiZS8WeHKMPpo="
+          "Value": "sha256-H4tMbv0R8Vt/fqCsEDsBioKV880UdqiGEioafLjDlIQ="
         }
       ]
     },
     {
-      "Route": "css/app.mygrjfbhi9.css",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-mygrjfbhi9.gz",
+      "Route": "css/app.ltyyf48p5n.css",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-ltyyf48p5n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000918273646"
+          "Quality": "0.000852514919"
         }
       ],
       "ResponseHeaders": [
@@ -72199,15 +72199,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1088"
+          "Value": "1172"
         },
         {
           "Name": "ETag",
-          "Value": "\"qulflwsZa8Eb+HrJvEo9WNMVgvpXMRYAlqWtH+Yqw5s=\""
+          "Value": "\"I6rTg5ZxC38urHM4mpCm8JVXILMk19jR2/yXDM5Ms+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72227,13 +72227,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE=\""
+          "Value": "W/\"yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mygrjfbhi9"
+          "Value": "ltyyf48p5n"
         },
         {
           "Name": "label",
@@ -72241,12 +72241,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE="
+          "Value": "sha256-yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8="
         }
       ]
     },
     {
-      "Route": "css/app.mygrjfbhi9.css",
+      "Route": "css/app.ltyyf48p5n.css",
       "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -72256,7 +72256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3527"
+          "Value": "4326"
         },
         {
           "Name": "Content-Type",
@@ -72264,11 +72264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE=\""
+          "Value": "\"yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72278,7 +72278,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mygrjfbhi9"
+          "Value": "ltyyf48p5n"
         },
         {
           "Name": "label",
@@ -72286,13 +72286,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ng14I8Y/vapdhOJdMIPbBpGCGH6LArlMjrm8uO1eDlE="
+          "Value": "sha256-yaPBXu7S9nonjyK6hvFfXp+rUOIEDULrS2UqHCib5i8="
         }
       ]
     },
     {
-      "Route": "css/app.mygrjfbhi9.css.gz",
-      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-mygrjfbhi9.gz",
+      "Route": "css/app.ltyyf48p5n.css.gz",
+      "AssetFile": "C:\\Users\\Duinrahaic\\RiderProjects\\JurassicBingo\\JurassicBingo\\obj\\Debug\\net9.0\\compressed\\gsxx7bt5g5-ltyyf48p5n.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -72301,7 +72301,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1088"
+          "Value": "1172"
         },
         {
           "Name": "Content-Type",
@@ -72309,11 +72309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qulflwsZa8Eb+HrJvEo9WNMVgvpXMRYAlqWtH+Yqw5s=\""
+          "Value": "\"I6rTg5ZxC38urHM4mpCm8JVXILMk19jR2/yXDM5Ms+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 26 Jul 2025 01:01:57 GMT"
+          "Value": "Sat, 26 Jul 2025 15:18:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -72331,7 +72331,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "mygrjfbhi9"
+          "Value": "ltyyf48p5n"
         },
         {
           "Name": "label",
@@ -72339,7 +72339,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qulflwsZa8Eb+HrJvEo9WNMVgvpXMRYAlqWtH+Yqw5s="
+          "Value": "sha256-I6rTg5ZxC38urHM4mpCm8JVXILMk19jR2/yXDM5Ms+c="
         }
       ]
     },

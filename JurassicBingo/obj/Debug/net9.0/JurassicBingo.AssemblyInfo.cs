@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JurassicBingo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8e0405ed845590daaf0141d75fee2f8054c6fb2")]
 [assembly: System.Reflection.AssemblyProductAttribute("JurassicBingo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JurassicBingo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

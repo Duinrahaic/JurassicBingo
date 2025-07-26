@@ -1,116 +1,167 @@
 ﻿@import "variables";
 
-
-.bingo-square {
-  position: relative;
-  width: $square-size;
-  height: $square-size;
-  background: $color-bg;
-  border: 2px solid $color-border;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-weight: bold;
-  cursor: pointer;
-  padding: 6px;
-  box-sizing: border-box;
-  transition: background 0.2s;
-  
-  &.marked {
-	background-color: $color-marked-bg;
-  }
-  
-  .square-text {
-	z-index: 1;
-	pointer-events: none;
-	text-align: center;
-	padding: 4px;
-	color:$color-text;
-	
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-	width: 100%;
-	height: 100%;
-	
-	word-wrap: break-word;
-	white-space: normal;
-	
-	font-size: clamp(10px, 1.8vw, 24px); 
-	line-height: 1.2;
-  }
-  
-  .mark-x {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	stroke: $color-x;
-	stroke-width: $stroke-width;
-	stroke-linecap: round;
-	pointer-events: none;
-	z-index: 2;
-  }
+html,body{
+  background-color: $color-background;
 }
 
-.bingo-container
-{
-  position: relative;
-  width: fit-content;
-  margin: 0 auto;
-  
-  &::before
-  {
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	height: 100%;
-	background: url("../JurrassicParkImg.jpg") no-repeat center center;
-	background-size: contain;
-	transform: translate(-50%, -50%);
-	opacity: 0.2;
-	pointer-events: none;
-	z-index: 0;
-  }
-}
-
-.bingo-grid {
+.bingo-page-container{
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  background-color: $color-background;
-  
-  
-  
-}
-
-.bingo-row {
-  display: flex;
-  flex-direction: row;
-}   
-
-.page{
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
-  user-select: none;
+  justify-content: center;
+  padding: 20px;
+  width: 50%;
+  transform: translateX(50%);
+  gap: 20px;
   background-color: $color-background;
+  
+  .jp-title{
+	font-size: clamp(20px, 5vw, 60px);
+	text-align: center;
+	font-family: "Impact", "Anton", sans-serif;
+	text-transform: uppercase;
+	color: #f2c200; // Jurassic amber
+	text-shadow: 2px 2px 0 #b30000, 4px 4px 4px rgba(0, 0, 0, 0.6);
+	letter-spacing: 0.1em;
+	white-space: nowrap;
+  }
+  
+  .jp-button {
+	background-color: $color-background;
+	color: $color-text;
+	font-family: "Impact", "Anton", sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: clamp(5px, 14px, 30px);;
+	letter-spacing: 4px;
+	padding: 0.75rem 1.5rem;
+	border: 3px solid $color-border;
+	border-radius: 6px;
+	cursor: pointer;
+	box-shadow: 0 4px 0 $color-border, 0 6px 10px $color-border;
+	transition: all 0.2s ease;
+	
+	&:hover {
+	  background-color: lighten($color-background, 5%);
+	  transform: translateY(-2px);
+	  box-shadow: 0 6px 0 $color-border, 0 10px 15px $color-border;
+	}
+	
+	&:active {
+	  transform: translateY(2px);
+	  box-shadow: 0 2px 0 $color-border, 0 4px 6px $color-border;
+	}
+  }
+  
+  .bingo-title {
+	font-size: clamp(20px, 5vw, 60px);
+	font-family: "Impact", "Anton", sans-serif;
+	text-transform: uppercase;
+	color: $color-text;
+	text-shadow: 2px 2px 0 $color-border, 4px 4px 4px rgba(0,0,0,0.6);
+	letter-spacing: 0.1em;
+	margin-bottom: 20px;
+  }
+  
+  
+  .bingo-toolbar-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 140%;
+	margin-bottom: 12px
+  }
+  
+  .bingo-container
+  {
+	position: relative;
+	
+	&::before
+	{
+	  content: "";
+	  position: absolute;
+	  top: 50%;
+	  left: 50%;
+	  width: 100%;
+	  height: 100%;
+	  background: url("../JurrassicParkImg.jpg") no-repeat center center;
+	  background-size: contain;
+	  transform: translate(-50%, -50%);
+	  opacity: 0.2;
+	  pointer-events: none;
+	  z-index: 0;
+	}
+	
+	.bingo-grid {
+	  display: grid;
+	  grid-template-columns: repeat(5, 1fr);
+	  
+	  .bingo-square {
+		position: relative;
+		aspect-ratio: 1;
+		
+		background: $color-bg;
+		border: 2px solid $color-border;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		font-weight: bold;
+		cursor: pointer;
+		padding: 6px;
+		box-sizing: border-box;
+		transition: background 0.2s;
+		
+		&.bingo-header{
+		  aspect-ratio: unset;
+		  cursor: unset;
+		}
+		
+		&.marked {
+		  background-color: $color-marked-bg;
+		}
+		
+		.square-text {
+		  z-index: 1;
+		  pointer-events: none;
+		  text-align: center;
+		  padding: 4px;
+		  color:$color-text;
+		  
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  
+		  width: 100%;
+		  height: 100%;
+		  
+		  word-wrap: break-word;
+		  white-space: normal;
+		  
+		  font-size: clamp(10px, 1.6vw, 20px);
+		  line-height: 1.2;
+		}
+		
+		.mark-x {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  width: 100%;
+		  height: 100%;
+		  stroke: $color-x;
+		  stroke-width: $stroke-width;
+		  stroke-linecap: round;
+		  pointer-events: none;
+		  z-index: 2;
+		}
+	  }
+	  
+	}
+  }
+
+  
 }
 
-.bingo-toolbar-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 8px 0;
-  width: 100%;
-  margin-bottom: 12px;
-}
 
 .jp-loading-screen {
   position: fixed;
@@ -153,39 +204,3 @@
   }
 }
 
-.jp-title{
-  font-size: 5rem;
-  text-align: center;
-  font-family: "Impact", "Anton", sans-serif;
-  text-transform: uppercase;
-  color: #f2c200; // Jurassic amber
-  text-shadow: 2px 2px 0 #b30000, 4px 4px 4px rgba(0, 0, 0, 0.6);
-  letter-spacing: 0.1em;
-}
-
-.jp-button {
-  background-color: $color-background;
-  color: $color-text;
-  font-family: 'Impact', 'Anton', sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 2rem;
-  letter-spacing: 4px;
-  padding: 0.75rem 1.5rem;
-  border: 3px solid $color-border;
-  border-radius: 6px;
-  cursor: pointer;
-  box-shadow: 0 4px 0 $color-border, 0 6px 10px $color-border;
-  transition: all 0.2s ease;
-  
-  &:hover {
-	background-color: lighten($color-background, 5%);
-	transform: translateY(-2px);
-	box-shadow: 0 6px 0 $color-border, 0 10px 15px $color-border;
-  }
-  
-  &:active {
-	transform: translateY(2px);
-	box-shadow: 0 2px 0 $color-border, 0 4px 6px $color-border;
-  }
-}
