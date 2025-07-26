@@ -1,7 +1,8 @@
 ﻿@import "variables";
 
-html,body{
+#app{
   background-color: $color-background;
+  height: 100vh;
 }
 
 .bingo-page-container{

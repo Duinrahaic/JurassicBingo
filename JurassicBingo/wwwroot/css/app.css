@@ -1,5 +1,6 @@
-html, body {
+#app {
   background-color: #000;
+  height: 100vh;
 }
 
 .bingo-page-container {
