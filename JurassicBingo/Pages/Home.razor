@@ -1,0 +1,145 @@
+﻿@page "/"
+@using Blazored.LocalStorage
+@using JurassicBingo.Components
+@using JurassicBingo.Models
+@using JurassicBingo.Utilities
+@inject HttpClient Http
+@inject ILocalStorageService StorageService
+
+<PageTitle>Jurassic Park Bingo</PageTitle>
+
+<h1 class="jp-title">
+    Jurassic Park Bingo
+</h1>
+
+
+<div class="bingo-toolbar-container">
+    <button class="jp-button" @onclick="RandomizeSquares"> Random </button>
+    <button class="jp-button" @onclick="ResetSquares"> Reset </button>
+</div> 
+<BingoCardRenderer Squares="@_squares" OnSquareClick="MarkSquare" />
+
+@code {
+    private List<BingoSquare> _squares = new();
+    
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await LoadAsync();
+            if(_squares.Any( x=> x.Id == -1))
+            {
+                // If we have a FREE SPACE, we need to normalize the grid
+                NormalizeGrid(_squares);
+            }
+            else
+            {
+                // Otherwise, randomize the squares
+                await RandomizeSquares();
+            }
+        }
+    }
+
+    private async Task RandomizeSquares()
+    {
+        Random random = new Random();
+
+        var phrases = await Http.GetFromJsonAsync<List<BingoPhrase>>("data/JurassicPark.json");
+        if (phrases is null || phrases.Count < 24)
+        {
+            throw new Exception("Not enough phrases to build bingo board.");
+        }
+        // Shuffle and take 24
+        var selected = phrases.OrderBy(_ => Guid.NewGuid()).Take(24)
+            .Select(p => new BingoSquare
+            {
+                Id = p.Id,
+                Text = p.Phrase,
+                Marked = false
+            })
+            .ToList();
+        _squares = selected;
+        
+        // Shuffle the squares randomly
+        _squares = _squares.OrderBy(x => random.Next() ).ToList(); 
+        await ResetSquares(); 
+        StateHasChanged();
+    }
+    
+    private async Task ResetSquares()
+    {
+        _squares.ForEach(x => x.Marked = false); 
+        NormalizeGrid(_squares);
+        await SaveAsync(_squares);
+        StateHasChanged();
+    }
+    
+    private void NormalizeGrid(List<BingoSquare> squares)
+    {
+        // Remove any existing FREE SPACE
+        squares.RemoveAll(s => s.Id == -1);
+
+        // Ensure exactly 24 non-free squares
+        if (squares.Count > 24)
+            squares.RemoveRange(24, squares.Count - 24);
+
+        if (squares.Count < 24)
+            throw new InvalidOperationException("Not enough squares to create a full grid (24 required without FREE SPACE).");
+
+        // Insert FREE SPACE at the center (index 12)
+        squares.Insert(12, new BingoSquare
+        {
+            Id = -1,
+            Text = "FREE SPACE",
+            Marked = true
+        });
+    }
+    
+    private async Task MarkSquare(BingoSquare square)
+    {
+        square.Marked = !square.Marked;
+        await SaveAsync(_squares);
+        StateHasChanged();
+    }
+    
+    private async Task SaveAsync(List<BingoSquare> squares)
+    {
+        await StorageService.SetItemAsync("jp-bingo", squares.ToBingoState());
+    }
+
+    private async Task LoadAsync()
+    {
+        // Load the saved bingo squares from cookies
+        var phrases = await Http.GetFromJsonAsync<List<BingoPhrase>>("data/JurassicPark.json");
+
+        var data = await StorageService.GetItemAsync<BingoState>("jp-bingo");
+        if (data is null)
+        {
+            ResetSquares();
+        }
+        else
+        {
+            if (!data.PhraseIds.Any())
+            {
+                ResetSquares();
+            }
+            else
+            {
+                _squares = data.ToBingoSquares();
+                _squares.ForEach(x=> x.Text = phrases?.FirstOrDefault(y=> x?.Id == y.Id)?.Phrase ?? "Unknown Phrase");
+            }
+        }
+
+        try
+        {
+            NormalizeGrid(_squares);
+        }
+        catch
+        {
+            // ignore errors in loading
+        }
+        StateHasChanged();
+
+
+    }
+}

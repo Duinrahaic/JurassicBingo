@@ -1,0 +1,171 @@
+.bingo-square {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: transparent;
+  border: 2px solid #fcdb54;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 6px;
+  box-sizing: border-box;
+  transition: background 0.2s;
+}
+.bingo-square.marked {
+  background-color: transparent;
+}
+.bingo-square .square-text {
+  z-index: 1;
+  pointer-events: none;
+  text-align: center;
+  padding: 4px;
+  color: #fafefb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+  font-size: clamp(10px, 1.8vw, 24px);
+  line-height: 1.2;
+}
+.bingo-square .mark-x {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  stroke: #c61f1f;
+  stroke-width: 10;
+  stroke-linecap: round;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.bingo-container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+.bingo-container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background: url("../JurrassicParkImg.jpg") no-repeat center center;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  opacity: 0.2;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.bingo-grid {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #000;
+}
+
+.bingo-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  user-select: none;
+  background-color: #000;
+}
+
+.bingo-toolbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 0;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.jp-loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 9999;
+}
+.jp-loading-screen .logo-overlay {
+  position: absolute;
+  width: 60vmin;
+  height: 60vmin;
+  background: url("../JurrassicParkImg.jpg") no-repeat center center;
+  background-size: contain;
+  opacity: 0.15;
+  filter: brightness(1.2) contrast(1.1) sepia(0.05);
+  pointer-events: none;
+  z-index: 0;
+}
+.jp-loading-screen .loading-title {
+  position: absolute;
+  z-index: 1;
+  transform: translateY(400px);
+  font-size: 12rem;
+  font-family: "Impact", "Anton", sans-serif;
+  text-transform: uppercase;
+  color: #f2c200;
+  text-shadow: 2px 2px 0 #b30000, 4px 4px 4px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.1em;
+}
+
+.jp-title {
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Impact", "Anton", sans-serif;
+  text-transform: uppercase;
+  color: #f2c200;
+  text-shadow: 2px 2px 0 #b30000, 4px 4px 4px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.1em;
+}
+
+.jp-button {
+  background-color: #000;
+  color: #fafefb;
+  font-family: "Impact", "Anton", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 3px solid #fcdb54;
+  border-radius: 6px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #fcdb54, 0 6px 10px #fcdb54;
+  transition: all 0.2s ease;
+}
+.jp-button:hover {
+  background-color: #0d0d0d;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 0 #fcdb54, 0 10px 15px #fcdb54;
+}
+.jp-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 #fcdb54, 0 4px 6px #fcdb54;
+}
+
+/*# sourceMappingURL=app.css.map */

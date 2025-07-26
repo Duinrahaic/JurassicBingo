@@ -1,0 +1,48 @@
+﻿@using JurassicBingo.Models
+@using Microsoft.AspNetCore.Components
+
+<div class="bingo-container">
+    <div class="bingo-grid">
+        <div class="bingo-row" >
+            <div class="bingo-square" style="height: unset; cursor: unset;">
+                <span class="square-text" style="font-size: 30px!important;">B</span>
+            </div>
+            <div class="bingo-square" style="height: unset; cursor: unset;">
+                <span class="square-text" style="font-size: 30px!important;">I</span>
+            </div>
+            <div class="bingo-square" style="height: unset; cursor: unset;">
+                <span class="square-text" style="font-size: 30px!important;">N</span>
+            </div>
+            <div class="bingo-square" style="height: unset; cursor: unset;">
+                <span class="square-text" style="font-size: 30px!important;">G</span>
+            </div>
+            <div class="bingo-square" style="height: unset; cursor: unset;">
+                <span class="square-text" style="font-size: 30px!important;">O</span>
+            </div>
+        </div>
+        
+        
+        @for (int row = 0; row < 5; row++)
+        {
+            <div class="bingo-row">
+                @for (int col = 0; col < 5; col++)
+                {
+                    int index = row * 5 + col;
+                    <BingoSquareRenderer Square="Squares[index]" OnSquareClick="HandleSquareClick"/>
+                }
+            </div>
+        }
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public List<BingoSquare> Squares { get; set; } = new();
+
+    [Parameter]
+    public EventCallback<BingoSquare> OnSquareClick { get; set; }
+
+    private Task HandleSquareClick(BingoSquare square)
+        => OnSquareClick.InvokeAsync(square);
+}

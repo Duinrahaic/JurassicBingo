@@ -1,0 +1,22 @@
+﻿@using JurassicBingo.Models
+
+<div class="bingo-square @((Square.Marked ? "marked" : ""))"
+     @onclick="() => OnSquareClick.InvokeAsync(Square)">
+    <span class="square-text">@Square.Text</span>
+
+    @if (Square.Marked)
+    {
+        <svg class="mark-x" viewBox="0 0 100 100">
+            <line x1="10" y1="10" x2="90" y2="90" />
+            <line x1="90" y1="10" x2="10" y2="90" />
+        </svg>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public BingoSquare Square { get; set; } = new();
+
+    [Parameter]
+    public EventCallback<BingoSquare> OnSquareClick { get; set; }
+}
