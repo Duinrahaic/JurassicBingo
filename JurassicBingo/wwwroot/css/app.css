@@ -1,6 +1,7 @@
 #app {
   background-color: #000;
   height: 100vh;
+  overflow: hidden;
 }
 
 .bingo-page-container {
@@ -9,8 +10,8 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
-  width: 50%;
-  transform: translateX(50%);
+  width: 80%;
+  margin: auto;
   gap: 20px;
   background-color: #000;
 }
@@ -87,6 +88,8 @@
 }
 .bingo-page-container .bingo-container .bingo-grid .bingo-square {
   position: relative;
+  max-height: 100%;
+  min-width: 100%;
   aspect-ratio: 1;
   background: transparent;
   border: 2px solid #fcdb54;
@@ -99,6 +102,7 @@
   padding: 6px;
   box-sizing: border-box;
   transition: background 0.2s;
+  user-select: none;
 }
 .bingo-page-container .bingo-container .bingo-grid .bingo-square.bingo-header {
   aspect-ratio: unset;
@@ -120,7 +124,7 @@
   height: 100%;
   word-wrap: break-word;
   white-space: normal;
-  font-size: clamp(10px, 1.6vw, 20px);
+  font-size: clamp(10px, 2dvw, 1.4dvw);
   line-height: 1.2;
 }
 .bingo-page-container .bingo-container .bingo-grid .bingo-square .mark-x {
