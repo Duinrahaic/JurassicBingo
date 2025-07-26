@@ -18,4 +18,11 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <None Remove="build.sh" />
+      <AdditionalFiles Include="build.sh">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </AdditionalFiles>
+    </ItemGroup>
+
 </Project>
